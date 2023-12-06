@@ -7,25 +7,25 @@ from decouple import config
 
 class Var:
     # Telegram's API ID
-    API_ID = config("API_ID", default=21888028)
+    API_ID = config("API_ID", default="21888028")
     # Telegram's API HASH
     API_HASH = config("API_HASH", default="f7c48de16ea7e7f547c13cf9a9dd4bf2")
     # Telegram Bot's token
-    BOT_TOKEN = config("BOT_TOKEN", 6526267759:AAFF-UFe5q-lOq3McGsHCXPJp4xEkPJ21Lo)
+    BOT_TOKEN = config("BOT_TOKEN", "6526267759:AAFF-UFe5q-lOq3McGsHCXPJp4xEkPJ21Lo")
 
     # Twitter Vars
-    BEARER_TOKEN = config("BEARER_TOKEN", AAAAAAAAAAAAAAAAAAAAAH1BeQEAAAAA0m%2FaUITZZYx4t80gMFcfgWTet9M%3D2ndZomKosPZoS1WF4483o5IRRj1ekobuTZAIQFg4Xl5WigUgFT)
-    CONSUMER_KEY = config("CONSUMER_KEY", 82FOPm6rmzKg4FMbT8g4ShziP)
-    CONSUMER_SECRET = config("CONSUMER_SECRET", 43AX2HPtb1I8VXguRjB262t3LuoZpaZJVba9wnFq4FEVOtPrT9)
-    ACCESS_TOKEN = config("ACCESS_TOKEN", 1430418183169654785-d4wwxQDzFCt25IzwbR852pNZ4S5FIu)
-    ACCESS_TOKEN_SECRET = config("ACCESS_TOKEN_SECRET", J5mKlBZGD4p2kKEz3Ws7bcN7cPb8KnnRXVr04Wj3Etk3s)
+    BEARER_TOKEN = config("BEARER_TOKEN", "AAAAAAAAAAAAAAAAAAAAAH1BeQEAAAAA0m%2FaUITZZYx4t80gMFcfgWTet9M%3D2ndZomKosPZoS1WF4483o5IRRj1ekobuTZAIQFg4Xl5WigUgFT")
+    CONSUMER_KEY = config("CONSUMER_KEY", "82FOPm6rmzKg4FMbT8g4ShziP")
+    CONSUMER_SECRET = config("CONSUMER_SECRET", "43AX2HPtb1I8VXguRjB262t3LuoZpaZJVba9wnFq4FEVOtPrT9")
+    ACCESS_TOKEN = config("ACCESS_TOKEN", "1430418183169654785-d4wwxQDzFCt25IzwbR852pNZ4S5FIu")
+    ACCESS_TOKEN_SECRET = config("ACCESS_TOKEN_SECRET", "J5mKlBZGD4p2kKEz3Ws7bcN7cPb8KnnRXVr04Wj3Etk3s")
 
     # Telegram Chat id(s), where to send Tweets
-    TO_CHAT: str = config("TO_CHAT", -1002041768983)
+    TO_CHAT: str = config("TO_CHAT", "-1002041768983")
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
-    TRACK_USERS = config("TRACK_USERS", @HHeBeBCNOFNa @Rise_tragic)
+    TRACK_USERS = config("TRACK_USERS", "HHeBeBCNOFNa", "Rise_tragic")
 
     # TRACK_WORDS: To filter Tweets by word
     # Should be seperated by "|"

@@ -7,9 +7,9 @@ from decouple import config
 
 class Var:
     # Telegram's API ID
-    API_ID = config("API_ID", default="21888028")
+    API_ID = config("API_ID", "21888028")
     # Telegram's API HASH
-    API_HASH = config("API_HASH", default="f7c48de16ea7e7f547c13cf9a9dd4bf2")
+    API_HASH = config("API_HASH", "f7c48de16ea7e7f547c13cf9a9dd4bf2")
     # Telegram Bot's token
     BOT_TOKEN = config("BOT_TOKEN", "6526267759:AAFF-UFe5q-lOq3McGsHCXPJp4xEkPJ21Lo")
 

@@ -25,7 +25,7 @@ class Var:
 
     # Username of Twitter User, whose Tweets should be tracked
     # and posted to chat filled in TO_CHAT.
-    TRACK_USERS = config("TRACK_USERS", "HHeBeBCNOFNa", "Rise_tragic")
+    TRACK_USERS = config("TRACK_USERS", "HHeBeBCNOFNa Rise_tragic")
 
     # TRACK_WORDS: To filter Tweets by word
     # Should be seperated by "|"

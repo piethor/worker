@@ -1,0 +1,12 @@
+.env
+.vscode/
+__pycache__/
+TgTwitterStreamer/__pycache__/
+media/
+ignore*
+*.mp4
+*.jpg
+*.log
+*.session
+test*
+*.email
